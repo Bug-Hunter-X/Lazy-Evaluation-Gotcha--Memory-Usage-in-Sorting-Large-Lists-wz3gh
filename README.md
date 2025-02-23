@@ -1,0 +1,2 @@
+# Haskell Lazy Evaluation and Large List Sorting
+This repository demonstrates a potential performance and memory issue in Haskell related to lazy evaluation when sorting large lists. The `bug.hs` file contains a simple program that sorts a list using the built-in `sort` function. While correct for small lists, it can cause significant performance issues, leading to high memory consumption or even crashes when the input list is very large.  The solution in `bugSolution.hs` addresses the problem by incorporating techniques to handle the large list more efficiently.
